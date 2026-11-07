@@ -1,0 +1,54 @@
+{
+  "name": "Sweezy Beatz",
+  "identifier": "com.sweezybeatz.source",
+  "subtitle": "Apps by Sweezy Beatz",
+  "description": "Sweezy Lifts — the cut plan, the workouts and Vee.",
+  "iconURL": "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/icon.png",
+  "website": "https://github.com/Spoots48/sweezy-lifts-source",
+  "tintColor": "FF8D4C",
+  "apps": [
+    {
+      "name": "Sweezy Lifts",
+      "bundleIdentifier": "com.sweezybeatz.lifts",
+      "developerName": "Sweezy Beatz",
+      "subtitle": "Your cut, your lifts, and Vee.",
+      "localizedDescription": "Track the 11-week cut from 169 to 160: the Push · Pull · Legs · Upper · Lower split with a workout player and rest timer, the meal plan and recipes, daily weigh-ins against the roadmap, photo check-ins with an on-device taper reading, the Journey, optional Apple Watch data, and Vee the dragon cheering you on. Backs up to a folder you choose so a reinstall never loses your progress.",
+      "iconURL": "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/icon.png",
+      "tintColor": "FF8D4C",
+      "category": "lifestyle",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/1-today.png",
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/2-journey.png",
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/3-photos.png",
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/5-plan.png",
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/6-push-day.png",
+        "https://raw.githubusercontent.com/Spoots48/sweezy-lifts-source/main/screenshots/8-workout.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-11-07",
+          "localizedDescription": "First release.",
+          "downloadURL": "https://github.com/Spoots48/sweezy-lifts-source/releases/download/v1.0-1/SweezyLifts.ipa",
+          "size": 2876281,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Sweezy Lifts uses the camera for your check-in photos. They stay on your phone.",
+          "NSHealthShareUsageDescription": "Read steps, sleep, heart rate, HRV, walks and weigh-ins from Apple Health to show them next to your plan.",
+          "NSHealthUpdateUsageDescription": "Save your weigh-ins to Apple Health.",
+          "NSPhotoLibraryAddUsageDescription": "Save your check-in photos to your camera roll so they're never lost.",
+          "NSPhotoLibraryUsageDescription": "Pick check-in photos from your library. They stay on your phone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
